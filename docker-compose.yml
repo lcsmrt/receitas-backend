@@ -1,0 +1,6 @@
+services:
+  receitas-backend:
+    build: .
+    ports:
+      - "7000:7000"
+    restart: unless-stopped
