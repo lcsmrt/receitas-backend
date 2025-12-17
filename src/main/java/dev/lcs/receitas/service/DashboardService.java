@@ -12,8 +12,9 @@ public class DashboardService {
         long qtdFavoritos = randomBetween(qtdReceitas / 10, qtdReceitas);
         long qtdIngredientes = randomBetween(qtdReceitas * 3, qtdReceitas * 6);
         long qtdUsuarios = randomBetween(10, qtdReceitas / 2);
+        String ultimaAtualizacao = "16/12/2025 às 22:38";
 
-        return new DashboardResponse(qtdReceitas, qtdFavoritos, qtdIngredientes, qtdUsuarios);
+        return new DashboardResponse(qtdReceitas, qtdFavoritos, qtdIngredientes, qtdUsuarios, ultimaAtualizacao);
     }
 
     private long randomBetween(long min, long max) {

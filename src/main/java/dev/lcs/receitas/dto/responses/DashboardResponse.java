@@ -5,12 +5,14 @@ public class DashboardResponse {
     private Long qtdFavoritos;
     private Long qtdIngredientes;
     private Long qtdUsuarios;
+    private String ultimaAtualizacao;
 
-    public DashboardResponse(Long qtdReceitas, Long qtdFavoritos, Long qtdIngredientes, Long qtdUsuarios) {
+    public DashboardResponse(Long qtdReceitas, Long qtdFavoritos, Long qtdIngredientes, Long qtdUsuarios, String ultimaAtualizacao) {
         this.qtdReceitas = qtdReceitas;
         this.qtdFavoritos = qtdFavoritos;
         this.qtdIngredientes = qtdIngredientes;
         this.qtdUsuarios = qtdUsuarios;
+        this.ultimaAtualizacao = ultimaAtualizacao;
     }
 
     public Long getQtdReceitas() {
@@ -27,5 +29,9 @@ public class DashboardResponse {
 
     public Long getQtdUsuarios() {
         return qtdUsuarios;
+    }
+
+    public String getUltimaAtualizacao() {
+        return ultimaAtualizacao;
     }
 }
