@@ -1,4 +1,4 @@
-package dev.lcs.receitas.dtos.responses;
+package dev.lcs.receitas.dto.responses;
 
 public class DashboardResponse {
     private Long qtdReceitas;

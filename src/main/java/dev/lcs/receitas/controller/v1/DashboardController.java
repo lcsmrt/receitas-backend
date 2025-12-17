@@ -1,7 +1,7 @@
-package dev.lcs.receitas.controllers.v1;
+package dev.lcs.receitas.controller.v1;
 
-import dev.lcs.receitas.dtos.responses.DashboardResponse;
-import dev.lcs.receitas.services.DashboardService;
+import dev.lcs.receitas.dto.responses.DashboardResponse;
+import dev.lcs.receitas.service.DashboardService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

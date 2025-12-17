@@ -1,6 +1,6 @@
-package dev.lcs.receitas.services;
+package dev.lcs.receitas.service;
 
-import dev.lcs.receitas.dtos.responses.DashboardResponse;
+import dev.lcs.receitas.dto.responses.DashboardResponse;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.ThreadLocalRandom;
